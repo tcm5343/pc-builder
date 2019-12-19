@@ -268,18 +268,21 @@ public class IndividualComp extends javax.swing.JPanel {
         for (Item item : (ArrayList<Item>) itemList) {
             // checks if user selected a component
             if (ComponentList.getSelectedValue() != null) {
-                // compares quantity to current stock
-                if (item.getStock() >= (int) Qty.getValue()) {
-                    decrementStock(item);
-                    myGUI.getConfirmPage().displayQuantity();
-                    myGUI.getConfirmPage().display(item);
-                    reset();
+                // finds item selected in itemList
+                if ((item.getName().equalsIgnoreCase(ComponentList.getSelectedValue()))) {
+                    // compares quantity to current stock
+                    if (item.getStock() >= (int) Qty.getValue()) {
+                        decrementStock(item);
+                        myGUI.getConfirmPage().display(item);
+                        myGUI.getConfirmPage().displayQuantity();
+                        reset();
 
-                    myGUI.changePanel("individualpart", "confirm");
-                    break;
-                } else {
-                    JOptionPane.showMessageDialog(null, "Quantity chosen exceeds stock, please lower your quantity", "Error", JOptionPane.INFORMATION_MESSAGE);
-                    break;
+                        myGUI.changePanel("individualpart", "confirm");
+                        break;
+                    } else {
+                        JOptionPane.showMessageDialog(null, "Quantity chosen exceeds stock, please lower your quantity", "Error", JOptionPane.INFORMATION_MESSAGE);
+                        break;
+                    }
                 }
             } else {
                 JOptionPane.showMessageDialog(null, "Please select one component", "Error", JOptionPane.INFORMATION_MESSAGE);
