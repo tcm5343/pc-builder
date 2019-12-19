@@ -1,0 +1,10 @@
+<!ELEMENT cpurecords (cpu*)>
+<!ELEMENT cpu (name, sku, socket, price, stock, power, type)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT sku (#PCDATA)>
+<!ELEMENT socket (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT power (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+

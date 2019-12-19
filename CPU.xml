@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE cpurecords SYSTEM "CPU.dtd">
+<cpurecords>
+<cpu>
+<name>Intel i9-9900K</name>
+<sku>1</sku>
+<socket>LGA</socket>
+<price>529</price>
+<stock>5</stock>
+<power>500</power>
+<type>CPU</type>
+</cpu>
+<cpu>
+<name>Intel i3-9350KF</name>
+<sku>2</sku>
+<socket>LGA</socket>
+<price>172</price>
+<stock>5</stock>
+<power>300</power>
+<type>CPU</type>
+</cpu>
+<cpu>
+<name>Intel i5-9600K</name>
+<sku>3</sku>
+<socket>LGA</socket>
+<price>229</price>
+<stock>5</stock>
+<power>300</power>
+<type>CPU</type>
+</cpu>
+<cpu>
+<name>Intel i7-8650U</name>
+<sku>4</sku>
+<socket>LGA</socket>
+<price>409</price>
+<stock>5</stock>
+<power>500</power>
+<type>CPU</type>
+</cpu>
+<cpu>
+<name>Intel i5-8350U</name>
+<sku>5</sku>
+<socket>LGA</socket>
+<price>297</price>
+<stock>5</stock>
+<power>500</power>
+<type>CPU</type>
+</cpu>
+<cpu>
+<name>Intel i7-7700K</name>
+<sku>6</sku>
+<socket>LGA</socket>
+<price>350</price>
+<stock>5</stock>
+<power>500</power>
+<type>CPU</type>
+</cpu>
+<cpu>
+<name>AMD Ryzen 5 3600</name>
+<sku>7</sku>
+<socket>AM4</socket>
+<price>189</price>
+<stock>5</stock>
+<power>300</power>
+<type>CPU</type>
+</cpu>
+<cpu>
+<name>AMD Ryzen 7 3700X</name>
+<sku>8</sku>
+<socket>AM4</socket>
+<price>309</price>
+<stock>5</stock>
+<power>500</power>
+<type>CPU</type>
+</cpu>
+<cpu>
+<name>AMD Ryzen 3 2200G</name>
+<sku>9</sku>
+<socket>AM4</socket>
+<price>79</price>
+<stock>5</stock>
+<power>200</power>
+<type>CPU</type>
+</cpu>
+</cpurecords>
+
