@@ -138,14 +138,21 @@ public class ConfirmationPage extends javax.swing.JPanel {
     private void ContinueShoppingBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ContinueShoppingBtnActionPerformed
         myGUI.getBuildPC().reset();
         myGUI.getIndComp().reset();
+        reset();
         myGUI.changePanel("confirm", "customer");
     }//GEN-LAST:event_ContinueShoppingBtnActionPerformed
 
     private void GameBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GameBtnActionPerformed
-
+        
         myGUI.changePanel("confirm", "game");
     }//GEN-LAST:event_GameBtnActionPerformed
 
+    private void reset(){
+        // clears text area and price
+        BuildTxtArea.setText(null);
+        TotalPriceTxt.setText("");
+    }
+    
     // displays
     protected void display(Item item) {
         // displays price
