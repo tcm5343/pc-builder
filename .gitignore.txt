@@ -20,3 +20,10 @@ nbproject/*
 *.DS_Store
 *.lock
 *.form
+
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+nbbuild/
+nbdist/
+.nb-gradle/
