@@ -7,4 +7,3 @@
 <!ELEMENT stock (#PCDATA)>
 <!ELEMENT power (#PCDATA)>
 <!ELEMENT type (#PCDATA)>
-

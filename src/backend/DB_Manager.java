@@ -1191,21 +1191,21 @@ public class DB_Manager {
         return childTextNode.getNodeValue();
     }
 
-    public void storeCPUfromXML() {
-        for (int i = 0; i < numCPU; i++) {
-            //CPU(String name, String type, double price, int sku, int stock, String socket, int power){
-            CPU cpu = new CPU(
-                    CPUArray[i].getName(),
-                    CPUArray[i].getType(),
-                    CPUArray[i].getPrice(),
-                    CPUArray[i].getSku(),
-                    CPUArray[i].getStock(),
-                    CPUArray[i].getSocket(),
-                    CPUArray[i].getPower()
-            );
-            insertItem(cpu);
-        }
-    } // end of storeCPUfromXML()
+//    public void storeCPUfromXML() {
+//        for (int i = 0; i < numCPU; i++) {
+//            //CPU(String name, String type, double price, int sku, int stock, String socket, int power){
+//            CPU cpu = new CPU(
+//                    CPUArray[i].getName(),
+//                    CPUArray[i].getType(),
+//                    CPUArray[i].getPrice(),
+//                    CPUArray[i].getSku(),
+//                    CPUArray[i].getStock(),
+//                    CPUArray[i].getSocket(),
+//                    CPUArray[i].getPower()
+//            );
+//            insertItem(cpu);
+//        }
+//    } // end of storeCPUfromXML()
 
     public void createRAMTable() {
 
